@@ -96,7 +96,11 @@ body {
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
@@ -122,6 +126,9 @@ body {
 }
 
 @media (max-width:  1200px){
+    .apresentacao__links__navegacao {
+    font-size: 14px;
+    }
      .apresentacao__imagem {
         width: 100%;
     }
